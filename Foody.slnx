@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="Foody.Api/Foody.Api.csproj" />
+  <Project Path="Foody.Application/Foody.Application.csproj" />
+  <Project Path="Foody.Contracts/Foody.Contracts.csproj" />
+  <Project Path="Foody.Domain/Foody.Domain.csproj" />
+  <Project Path="Foody.Infrastructure/Foody.Infrastructure.csproj" />
+</Solution>
