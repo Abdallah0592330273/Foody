@@ -1,6 +1,28 @@
-@Foody.Api_HostAddress = http://localhost:5086
+@Url=http://localhost:5086
 
-GET {{Foody.Api_HostAddress}}/weatherforecast/
+GET {{Url}}/weatherforecast/
 Accept: application/json
+
+###
+POST {{Url}}/auth/register
+Content-Type: application/json
+Accept: application/json
+
+{
+  "firstName": "Abdullah",
+  "lastName": "Ahmed",
+  "email": "hendawi@gmail",
+  "password": "confirmPassword",
+  "confirm": "confirmPassword"
+}
+###
+POST {{Url}}/auth/login
+Content-Type: application/json
+Accept: application/json
+
+{
+  "email": "hendawi@gmail",
+  "password": "confdirmPassword"
+}
 
 ###
